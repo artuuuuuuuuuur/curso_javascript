@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font: normal 18pt;
+}
+
+input {
+    font: 12pt;
+    font-weight: bolder;
+    width: 100px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 60px;
+    border-color: aliceblue;
+}
+
+
+input#sum {
+    background-color: orange;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+input#sub {
+    background-color: orange;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+input#mult {
+    background-color: orange;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 5px;
+}
+input#divi {
+    background-color: orange;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 5px;
+}
+
+div#res {
+    margin-top: 30px;
+    color: white;
+}
+
+h1 {
+    color: orange
+}
+
+h2 {
+    color: whitesmoke
+}

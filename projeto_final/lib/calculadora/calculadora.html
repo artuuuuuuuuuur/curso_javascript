@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora Básica</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="../assets/calculadora_icon.png" type="image/x-icon">
+</head>
+<body>
+    <center>
+        <h1>Calculadora Básica</h1>
+    <h2>Executando as 4 operações Aritméticas</h2>
+    <hr>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2"> <br><br>
+    <input type="button" id="sum" value="+" onclick="somar()" > 
+    <input type="button" id="sub" value="-" onclick="subtrair()" > 
+    <input type="button" id="mult" value="x" onclick="multiplicar()" > 
+    <input type="button" id="divi" value="/" onclick="dividir()" > 
+    <div id="res"><b>0</b></div>
+    <script src="main.js"></script><br>
+
+    <form>
+        <input type="button" value="<-" onclick="history.go(-1)">
+        <input type="button" value="->" onclick="history.go(+1)">
+    </form>
+    </center>
+    
+</body>
+</html>
