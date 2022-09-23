@@ -1,0 +1,76 @@
+body {
+    background-color: pink;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 35%;
+    margin-left: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#topo {
+    background-color: aliceblue;
+}
+
+#topo p {
+    color: red;
+    text-align: center;
+}
+
+#menu {
+    margin-top: 15px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 10px;
+}
+
+#menu ul li {
+    font-size: 22px;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+    padding: 5px;
+    border-left: dotted 1px #333;
+}
+
+#conteudo1{
+    background-color: palevioletred;
+    height: 300px;
+    width: 600px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
+    float: left;
+}
+
+#conteudo2{
+    background-color: palevioletred;
+    height: 300px;
+    width: 600px;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 12px;
+    float: left;
+}
+
+#conteudo3{
+    background-color: palevioletred;
+    height: 300px;
+    width: 600px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-top: 15px;
+    float: left;
+}
+
+
